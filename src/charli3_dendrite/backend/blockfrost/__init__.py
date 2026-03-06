@@ -33,7 +33,7 @@ class BlockFrostBackend(AbstractBackend):
         """
         self.chain_context = BlockFrostChainContext(
             project_id,
-            base_url=ApiUrls.mainnet.value,
+            base_url=ApiUrls.preprod.value,
         )
         self.api = self.chain_context.api
         self._block_cache: dict = {}
