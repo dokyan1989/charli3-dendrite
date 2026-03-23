@@ -165,6 +165,7 @@ def naturalize_assets(assets: Assets) -> dict[str, Decimal]:
         if unit == "lovelace":
             nat_assets["lovelace"] = Decimal(quantity) / Decimal(10**6)
         else:
-            nat_assets[unit] = Decimal(quantity) / Decimal(10 ** asset_decimals(unit))
+            # nat_assets[unit] = Decimal(quantity) / Decimal(10 ** asset_decimals(unit))
+            nat_assets["lovelace"] = Decimal(quantity) / Decimal(10**6)
 
     return nat_assets

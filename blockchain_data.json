@@ -1,0 +1,28 @@
+{
+  "pool_utxos_ConcentratedPoolState": {
+    "bafb08d9c4ed68d1730ed655c2ce5730c8abe2b9efd3eb237d9362c1365da7a23e2c27bac8dbb06109804eedcf770bbff465304b4f30cf0b9c3e9ca8": {
+      "assets": {
+        "lovelace": 3412760847,
+        "9a614be30284aa88eb845da7657b5d0a235f1b95628b23c08050d5026655534441": 579617100
+      },
+      "fee": null,
+      "last_update": 0
+    },
+    "bafb08d9c4ed68d1730ed655c2ce5730c8abe2b9efd3eb237d9362c15c14f4012218e283c748c17532dcf211a7ac849705739189e7cfc4bea780e9fe": {
+      "assets": {
+        "lovelace": 18468070461,
+        "834a15101873b4e1ddfaa830df46792913995d8738dcde34eda27905665553444d": 5327665116
+      },
+      "fee": null,
+      "last_update": 0
+    },
+    "bafb08d9c4ed68d1730ed655c2ce5730c8abe2b9efd3eb237d9362c1cef80e0978314255e268caa437056febc2be47e17fa914dd98155b62f5f3ba3a": {
+      "assets": {
+        "lovelace": 15412889964,
+        "834a15101873b4e1ddfaa830df46792913995d8738dcde34eda27905665553444d": 265730039
+      },
+      "fee": null,
+      "last_update": 0
+    }
+  }
+}
